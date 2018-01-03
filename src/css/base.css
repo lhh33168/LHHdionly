@@ -188,3 +188,15 @@ s, i, em { font-style: normal; text-decoration: none; }
 .footsite .container_wrap .footsite_right a { margin-right: 8px; }
 
 .footsite .link { width: 1180px; margin: 0 auto; height: 25px; line-height: 25px; text-align: right; }
+
+.Zxs { width: 64px; position: fixed; right: 5px; bottom: 100px; z-index: 30; font-size: 14px; }
+
+.Zxs li { width: 64px; height: 64px; background: #c11e20; margin-top: 2px; text-align: center; color: #fff; cursor: pointer; position: relative; }
+
+.Zxs li img { margin: 5px auto; }
+
+.Zxs .code { width: 152px; height: 145px; position: absolute; right: 70px; bottom: 32px; display: none; }
+
+.Zxs div:hover li { background: #e65f61; }
+
+.Zxs .erweima:hover .code { display: block; }

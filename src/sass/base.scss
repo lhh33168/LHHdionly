@@ -194,4 +194,12 @@ s,i,em {
       }
     }
     .link{width:$container;margin:0 auto;height:25px;line-height:25px;text-align:right;}
- }
+}
+.Zxs{width:64px;position:fixed;right:5px;bottom:100px;z-index:30;font-size:14px;
+    li{width:64px;height:64px;background:#c11e20;margin-top:2px;text-align:center;color:#fff;cursor:pointer;position:relative;
+      img{margin:5px auto;} 
+    }
+    .code{width:152px;height:145px;position:absolute;right:70px;bottom:32px;display:none;}
+    div:hover li{background:lighten(#c11e20,percentage(0.2));}
+    .erweima:hover .code{display:block;}
+}

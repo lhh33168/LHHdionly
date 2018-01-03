@@ -1,0 +1,22 @@
+.login{background:url('../img/reg/login.jpg')no-repeat;height:588px;width:100%;background-size:cover;background-position:center;
+    .mainright{width:518px;height:588px;float:right;
+        .loginnamehead{margin-top:112px;width:385px;height:25px;font-size:14px;text-align:right;
+            a{color:#DB3962;}
+        }
+        .loginnameinput{margin-top:41px;width:390px;height:30px;
+            .loginname{margin-left:150px;width:150px;padding:1px 3px;border:none;height:28px;line-height:28px;font-size:14px;}
+        }
+        .loginnameerror{margin-top:3px;margin-left:150px;width:200px;height:18px;color:#DB3962;}
+        .loginpassinput{margin-top:3px;width:390px;height:30px;
+            .loginpass{margin-left:150px;width:150px;padding:1px 3px;border:none;height:28px;line-height:28px;font-size:14px; }
+        }
+        .loginpasserror{margin-top:3px;margin-left:150px;width:243px;height:18px;color:#DB3962;}
+        .loginautoitem{margin-top:2px;width:390px;height:35px;font-size:14px;
+            .loginautobox{margin-left:55px;width:22px;height:24px;float:left;}
+            .loginautoleft{float:left;width:192px;height:24px;}
+            .loginautoright{float:left;width:70px;height:24px;}
+        }
+        .loginbutnitem{margin-left:60px;width:321px;height:41px;background:url('../img/reg/loginbutn.png')no-repeat;cursor:pointer;}
+        .loginiconitem{margin-left:49px;margin-top:46px;width:330px;height:75px;text-align:center;}
+    }
+}
