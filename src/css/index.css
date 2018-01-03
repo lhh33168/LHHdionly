@@ -1,0 +1,186 @@
+/*-----------------------main-----------------------------*/
+.main .mainline1 { padding-top: 18px; font-size: 12px; line-height: 30px; }
+
+.main .mainline1 .main1left, .main .mainline1 .main1center { float: left; border: 1px solid #ccc; padding: 4px; margin-right: 14px; height: 210px; }
+
+.main .mainline1 .main1left a.left, .main .mainline1 .main1center a.left { text-align: center; display: block; width: 310px; }
+
+.main .mainline1 .main1left a.center, .main .mainline1 .main1center a.center { text-align: center; display: block; width: 501px; }
+
+.main .mainline1 .main1right { float: right; border: 1px solid #ccc; padding: 4px; height: 210px; }
+
+.main .mainline1 .main1right a { text-align: center; display: block; width: 310px; }
+
+.main .mainline { height: 18px; }
+
+.main .mainline2 { height: 161px; background: #f9f9f9; }
+
+.main .mainline2 .leftdiamondimg { float: left; line-height: 159px; height: 159px; }
+
+.main .mainline2 .rightsearchbtn { float: right; background: url("../img/index/bg1.png") no-repeat; height: 159px; width: 562px; }
+
+.main .mainline2 .rightsearchbtn .inputvalue { height: 30px; width: 215px; margin-top: 20px; float: left; }
+
+.main .mainline2 .rightsearchbtn .inputvalue #mincaratvalue { height: 21px; width: 44px; margin-left: 70px; }
+
+.main .mainline2 .rightsearchbtn .inputvalue #maxcaratvalue { height: 21px; width: 44px; }
+
+.main .mainline2 .rightsearchbtn .inputvalue span { display: inline-block; line-height: 30px; font-size: 12px; }
+
+.main .mainline2 .rightsearchbtn .selectitem:nth-child(2) { width: 242px; height: 30px; margin-top: 22px; margin-left: 76px; float: left; }
+
+.main .mainline2 .rightsearchbtn .selectitem:nth-child(2) span { display: inline-block; width: 29px; height: 24px; padding: 3px; line-height: 21px; border: 1px solid #ccc; border-radius: 3px; text-align: center; background: #ccc; font-size: 12px; cursor: pointer; margin: 2px 0 0 2px; }
+
+.main .mainline2 .rightsearchbtn .selectitem:nth-child(3) { width: 153px; height: 30px; margin-top: 15px; margin-left: 68px; float: left; }
+
+.main .mainline2 .rightsearchbtn .selectitem:nth-child(3) span { display: inline-block; width: 32px; height: 24px; padding: 3px; line-height: 21px; border: 1px solid #ccc; border-radius: 3px; text-align: center; background: #ccc; font-size: 12px; cursor: pointer; margin: 2px 0 0 2px; }
+
+.main .mainline2 .rightsearchbtn .selectitem:nth-child(4) { width: 242px; height: 30px; margin-top: 15px; margin-left: 68px; float: left; }
+
+.main .mainline2 .rightsearchbtn .selectitem:nth-child(4) span { display: inline-block; width: 35px; height: 24px; padding: 3px; line-height: 21px; border: 1px solid #ccc; border-radius: 3px; text-align: center; background: #ccc; font-size: 12px; cursor: pointer; margin: 2px 0 0 2px; }
+
+.main .mainline2 .rightsearchbtn .selectitembtn { margin-left: 370px; margin-top: 5px; height: 33px; float: left; }
+
+.main .mainline3 .mainline3left { background: url("../img/index/14.jpg") no-repeat; float: left; height: 429px; width: 321px; font-size: 12px; }
+
+.main .mainline3 .mainline3left .mainimgs { height: 180px; cursor: pointer; }
+
+.main .mainline3 .mainline3left .maintype { height: 120px; padding: 12px 5px; }
+
+.main .mainline3 .mainline3left .maintype p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline3 .mainline3left .mainprice { height: 100px; }
+
+.main .mainline3 .mainline3left .mainprice p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline3 .mainline3center { float: left; }
+
+.main .mainline3 .mainline3right { float: right; }
+
+.main .mainline3 .mainline3right .righttopleft { float: left; }
+
+.main .mainline3 .mainline3right .righttopright { float: right; }
+
+.main .mainline3 .mainline3right .rightbottomleft { float: left; }
+
+.main .mainline3 .mainline3right .rightbottomcenter { float: left; }
+
+.main .mainline3 .mainline3right .rightbottomright { float: right; }
+
+.main .mainline4 div { float: left; }
+
+.main .mainline6 .mainline6left { background: url("../img/index/13.jpg") no-repeat; float: left; height: 429px; width: 320px; font-size: 12px; }
+
+.main .mainline6 .mainline6left .mainimgs { height: 180px; cursor: pointer; }
+
+.main .mainline6 .mainline6left .maintype { height: 120px; padding: 12px 5px; }
+
+.main .mainline6 .mainline6left .maintype p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline6 .mainline6left .mainprice { height: 100px; }
+
+.main .mainline6 .mainline6left .mainprice p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline6 .mainline6center { float: right; }
+
+.main .mainline6 .mainline6right { float: right; }
+
+.main .mainline6 .mainline6right .righttopleft { float: left; }
+
+.main .mainline6 .mainline6right .righttopright { float: right; }
+
+.main .mainline6 .mainline6right .rightbottomleft { float: left; }
+
+.main .mainline6 .mainline6right .rightbottomcenter { float: left; }
+
+.main .mainline6 .mainline6right .rightbottomright { float: right; }
+
+.main .mainline7 .mainline7left { background: url("../img/index/12.jpg") no-repeat; float: left; height: 429px; width: 321px; font-size: 12px; }
+
+.main .mainline7 .mainline7left .mainimgs { height: 180px; cursor: pointer; }
+
+.main .mainline7 .mainline7left .maintype { height: 120px; padding: 12px 5px; }
+
+.main .mainline7 .mainline7left .maintype p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline7 .mainline7left .mainprice { height: 100px; }
+
+.main .mainline7 .mainline7left .mainprice p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline7 .mainline7center { float: left; }
+
+.main .mainline7 .mainline7right { float: right; }
+
+.main .mainline7 .mainline7right .righttopleft { float: left; }
+
+.main .mainline7 .mainline7right .righttopright { float: right; }
+
+.main .mainline7 .mainline7right .rightbottomleft { float: left; }
+
+.main .mainline7 .mainline7right .rightbottomcenter { float: left; }
+
+.main .mainline7 .mainline7right .rightbottomright { float: right; }
+
+.main .mainline9 .mainline9left { background: url("../img/index/11.jpg") no-repeat; float: left; height: 429px; width: 320px; font-size: 12px; }
+
+.main .mainline9 .mainline9left .mainimgs { height: 180px; cursor: pointer; }
+
+.main .mainline9 .mainline9left .maintype { height: 120px; padding: 12px 5px; }
+
+.main .mainline9 .mainline9left .maintype p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline9 .mainline9left .mainprice { height: 100px; }
+
+.main .mainline9 .mainline9left .mainprice p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline9 .mainline9center { float: right; }
+
+.main .mainline9 .mainline9right { float: right; }
+
+.main .mainline9 .mainline9right .righttopleft { float: left; }
+
+.main .mainline9 .mainline9right .righttopright { float: right; }
+
+.main .mainline9 .mainline9right .rightbottomleft { float: left; }
+
+.main .mainline9 .mainline9right .rightbottomcenter { float: left; }
+
+.main .mainline9 .mainline9right .rightbottomright { float: right; }
+
+.main .mainline10 .mainline10left { background: url("../img/index/1.jpg") no-repeat; float: left; height: 429px; width: 320px; font-size: 12px; }
+
+.main .mainline10 .mainline10left .mainimgs { height: 180px; cursor: pointer; }
+
+.main .mainline10 .mainline10left .maintype { height: 120px; padding: 12px 5px; }
+
+.main .mainline10 .mainline10left .maintype p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline10 .mainline10left .mainprice { height: 100px; }
+
+.main .mainline10 .mainline10left .mainprice p { width: 200px; height: 24px; line-height: 24px; text-indent: 30px; }
+
+.main .mainline10 .mainline10center { float: right; }
+
+.main .mainline10 .mainline10right { float: right; }
+
+.main .mainline10 .mainline10right .righttopleft { float: left; }
+
+.main .mainline10 .mainline10right .righttopright { float: right; }
+
+.main .mainline10 .mainline10right .rightbottomleft { float: left; }
+
+.main .mainline10 .mainline10right .rightbottomcenter { float: left; }
+
+.main .mainline10 .mainline10right .rightbottomright { float: right; }
+
+.main .mainline5 { font-size: 12px; }
+
+.main .mainline5 .mainline5wrap { width: 320px; height: 288px; border: 1px solid #E3E3E3; float: left; margin-right: 10px; }
+
+.main .mainline5 .mainline5wrap .wraphead { width: 320px; height: 33px; line-height: 33px; text-indent: 15px; font-weight: bold; background: url("../img/index/headbg.png"); }
+
+.main .mainline5 .mainline5wrap .mainimg { padding: 5px; }
+
+.main .mainline5 .mainline5wrap .maintext { margin-top: 10px; }
+
+.main .mainline5 .mainline5wrap .maintext p { height: 27px; line-height: 27px; padding-left: 10px; }

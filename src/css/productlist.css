@@ -1,0 +1,40 @@
+/*------------------------productmain--------------------*/
+.productmain { background: #f9f9f9; }
+
+.productpath { height: 25px; line-height: 25px; font-size: 12px; padding-left: 10px; }
+
+.productlist .listleft { float: left; }
+
+.productlist .listleft .listwrap { border: 1px solid #CECECE; }
+
+.productlist .listleft .listwrap .listhead { background: url("../img/ProductList/headbg.png"); height: 35px; width: 240px; font-size: 12px; font-weight: bold; text-indent: 10px; line-height: 35px; }
+
+.productlist .listleft .listwrap .listnode { padding: 15px 19px 5px 19px; }
+
+.productlist .listleft .listwrap .listnode .nodehead { width: 202px; height: 35px; line-height: 20px; font-weight: bold; font-size: 14px; }
+
+.productlist .listleft .listwrap .listnode .nodehead span { display: inline-block; cursor: pointer; background: #ccc; color: #fff; text-align: center; margin-right: 9px; padding: 0 0 2px 2px; }
+
+.productlist .listleft .listwrap .listnode .nodehead a { color: #000; font-weight: bold; }
+
+.productlist .listleft .listwrap .listnode .nodehead a.red { color: red; }
+
+.productlist .listleft .listwrap .listnode .nodeitem { margin-bottom: 15px; padding: 5px 0; width: 202px; line-height: 30px; border-top: 1px dashed #D1D1D1; border-bottom: 1px dashed #D1D1D1; background: #FAFAFA; }
+
+.productlist .listleft .listwrap .listnode .nodeitem .itemname { float: left; padding-left: 21px; width: 80px; font-size: 12px; }
+
+.productlist .listleft .listadwrap { margin-top: 10px; }
+
+.productlist .listleft .listadwrap .listaditem { width: 242px; margin-top: 10px; }
+
+.productlist .listright { float: right; }
+
+.productlist .listright .listselect { padding: 10px 0; width: 920px; border: 1px solid #CECECE; background: #F8F8F8; font-size: 12px; }
+
+.productlist .listright .listselect .selectwrap { width: 900px; margin: 0 auto; height: 40px; border-bottom: 1px dashed #CECECE; }
+
+.productlist .listright .listselect .selectwrap .wraphead { float: left; padding-left: 10px; width: 50px; height: 40px; line-height: 40px; color: #DB3962; }
+
+.productlist .listright .listselect .selectwrap .wrapitem { float: left; height: 40px; line-height: 40px; margin-left: 20px; }
+
+.productlist .listright .listselect .selectwrap .wrapitem span { border-left: 1px solid #000; padding: 0 15px; }
