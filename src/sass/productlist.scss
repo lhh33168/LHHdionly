@@ -18,6 +18,13 @@
                     .itemname{float:left;padding-left:21px;width:80px;font-size:12px;}
                 }
             }
+            .listhots{padding:19px 19px 6px 19px;font-size:12px;
+                img{height:200px;width:200px;}
+                p{width:202px;height:40px;line-height:40px;text-align:center;}
+                div{width:202px;height:35px;text-align:center;
+                    span{font-size:14px;color:#DB3962;}
+                }
+            }
         }
         .listadwrap{margin-top:10px;
             .listaditem{width:242px;margin-top:10px;}
@@ -31,6 +38,27 @@
                         span{border-left:1px solid #000;padding:0 15px;
                     }   
                 } 
+            }
+        }
+        .listpager{padding:22px 20px 30px 20px;text-align:right;
+            span{margin:0 5px;padding:0 8px;}
+        }
+        .listheader{margin-top:20px;width:920px;height:35px;line-height:35px;border:1px solid #CECECE;background:url('../img/ProductList/headbg.png');
+            .headeritem{display:inline-block;width:70px;height:35px;text-align:center;line-height:35px;float:left;}
+            .headerline{display:inline-block;width:12px;height:33px;background:url('../img/ProductList/linebg.png');float:left;}
+        }
+        .listwraper{margin-top:20px;width:922px;border-top:1px solid #CECECE;border-left:1px solid #CECECE;overflow:hidden;
+            .wraperitem{float:left;width:307px;height:291px;border-right:1px solid #CECECE;border-bottom:1px solid #CECECE;
+                .itemimg{margin:0 auto;width:200px;height:210px;display:block;
+                    img{width:200px;height:200px;border:none;margin:10px;}
+                }
+                .itemname{width:306px;height:40px;line-height:30px;font-size:14px;text-align:center;}
+                .itemprice{width:306px;height:40px;background:#F8F8F8;font-size:12px;
+                    .pricemarket{padding-left:13px;width:153px;height:40px;line-height:40px;float:left;}
+                    .pricemember{float:right;padding-right:13px;width:140px;height:40px;line-height:40px;text-align:right;
+                        span{font-size:14px;color:#DB3962;}
+                    }
+                }
             }
         }
     }

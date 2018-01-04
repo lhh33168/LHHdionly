@@ -1,0 +1,43 @@
+.signin { width: 100%; height: 606px; background: url("../img/signin/signin.jpg") no-repeat; background-size: cover; background-position: center; }
+
+.signin .mainright { width: 518px; height: 606px; float: right; }
+
+.signin .mainright .signinnamehead { margin-top: 70px; width: 385px; height: 25px; font-size: 14px; text-align: right; }
+
+.signin .mainright .signinnamehead a { color: #DB3962; }
+
+.signin .mainright .signinnameinput { margin-top: 46px; width: 390px; height: 30px; color: #ccc; }
+
+.signin .mainright .signinnameinput .signinname { margin-left: 150px; width: 150px; padding: 1px 3px; border: none; height: 28px; line-height: 28px; font-size: 14px; overflow: hidden; }
+
+.signin .mainright .signinnameerror, .signin .mainright .signinimgcodeerror, .signin .mainright .signincodeerror, .signin .mainright .signinpasserror, .signin .mainright .signinworderror { margin-top: 3px; margin-left: 150px; width: 234px; height: 18px; color: #DB3962; }
+
+.signin .mainright .signinimgcodeinput { margin-top: 0px; width: 390px; height: 30px; }
+
+.signin .mainright .signinimgcodeinput .signinimgcode { margin-left: 150px; width: 80px; padding: 1px 3px; border: none; height: 30px; line-height: 30px; font-size: 14px; float: left; overflow: hidden; }
+
+.signin .mainright .signinimgcodeinput .inputreset, .signin .mainright .signinimgcodeinput .resetimgbtn { float: left; width: 60px; height: 30px; line-height: 30px; font-size: 13px; text-align: center; cursor: pointer; }
+
+.signin .mainright .signincodeinput { margin-top: 5px; width: 390px; height: 30px; }
+
+.signin .mainright .signincodeinput .inputright { margin-left: 150px; width: 100px; height: 30px; float: left; }
+
+.signin .mainright .signincodeinput .inputright .signincode { width: 72px; padding: 1px 3px; border: none; height: 28px; line-height: 28px; font-size: 14px; overflow: hidden; }
+
+.signin .mainright .signincodeinput .inputsend { float: left; width: 100px; height: 30px; line-height: 30px; font-size: 13px; text-align: left; cursor: pointer; }
+
+.signin .mainright .signinpassinput { margin-top: 3px; width: 390px; height: 30px; }
+
+.signin .mainright .signinpassinput .signinpass { margin-left: 150px; width: 150px; padding: 1px 3px; border: none; height: 28px; line-height: 28px; font-size: 14px; overflow: hidden; }
+
+.signin .mainright .signinreaditem { margin-left: 60px; width: 390px; height: 18px; font-size: 12px; }
+
+.signin .mainright .signinreaditem .signinreadbox { float: left; margin-left: -5px; width: 22px; height: 18px; }
+
+.signin .mainright .signinreaditem .signinreadleft { float: left; width: 280px; height: 18px; line-height: 21px; }
+
+.signin .mainright .signinreaderror { margin-left: 60px; margin-top: -2px; width: 250px; height: 18px; color: #DB3962; }
+
+.signin .mainright .signinbutnitem { margin-left: 60px; width: 321px; height: 41px; background: url("../img/signin/regbutn.png") no-repeat; cursor: pointer; }
+
+.signin .mainright .signiniconitem { margin-left: 50px; margin-top: 36px; width: 315px; height: 75px; text-align: center; }

@@ -7,9 +7,9 @@ require(['config'],function(){
         /*------------------------mainright------------------------*/ 
             $('.mainright').on('focus','input',function(){
                 $(this).attr('value','');
-            })
-            $('#loginname').on('blur',function(){
+            });
+            $('#signinname').on('blur',function(){
                 $(this).attr('value','11位数字');
-            })
+            });
     });
 })

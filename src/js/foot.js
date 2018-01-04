@@ -28,7 +28,7 @@ require(['config'],function(){
             $tabContentImg[0].src = '../img/foot/'+imgsrc+'.jpg'
         });
         var $totop = $('.totop');
-        $totop[0].onclick = ()=>{
+        $totop[0].onclick = function(){
                 let timer = setInterval(()=>{
                     // 获取当前滚动果的距离：5000,100
                     let scrollY = window.scrollY;

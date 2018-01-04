@@ -1,0 +1,105 @@
+#detailsmain { background: #eee; font-size: 12px; }
+
+#detailsmain .productpath { height: 50px; line-height: 50px; text-indent: 15px; }
+
+#detailsmain .productitem { border: 1px solid #D2D2D2; background: #fff; }
+
+#detailsmain .productitem .itemline { height: 15px; border-top: 2px solid #FFC0C1; }
+
+#detailsmain .productitem .itemleft { padding: 15px 25px; width: 500px; border-right: 1px solid #D2D2D2; float: left; }
+
+#detailsmain .productitem .itemleft .large { margin: 0 10px; text-align: center; }
+
+#detailsmain .productitem .itemleft .small { margin: 10px 10px 0 10px; }
+
+#detailsmain .productitem .itemleft .small i { float: left; margin-top: 35px; cursor: pointer; }
+
+#detailsmain .productitem .itemleft .small i:first-child { margin-right: 5px; }
+
+#detailsmain .productitem .itemleft .small .smallbox { width: 400px; overflow: hidden; float: left; }
+
+#detailsmain .productitem .itemleft .small .smallbox ul { position: relative; top: 0; left: 0; }
+
+#detailsmain .productitem .itemleft .small .smallbox ul li { float: left; margin-left: 1px; margin-right: 1px; width: 98px; height: 95px; }
+
+#detailsmain .productitem .itemleft .small .smallbox ul li img { border: 1px solid #ccc; }
+
+#detailsmain .productitem .itemright { float: right; padding: 15px 5px; width: 630px; }
+
+#detailsmain .productitem .itemright .none { display: none; }
+
+#detailsmain .productitem .itemright .list { overflow: hidden; }
+
+#detailsmain .productitem .itemright .list .text { float: left; width: 100px; line-height: 38px; text-align: right; }
+
+#detailsmain .productitem .itemright .list .bold { font-size: 13px; font-weight: bold; }
+
+#detailsmain .productitem .itemright .list .data { float: left; width: 430px; line-height: 38px; }
+
+#detailsmain .productitem .itemright .list .market { color: #888; font-size: 14px; font-weight: bold; text-decoration: line-through; }
+
+#detailsmain .productitem .itemright .list .price { color: #DB3962; font-size: 14px; font-weight: bold; }
+
+#detailsmain .productitem .itemright .list .materiaselect { padding: 5px 10px; background: #DB3962; color: #fff; margin-right: 8px; cursor: pointer; }
+
+#detailsmain .productitem .itemright .list .materia { padding: 5px 10px; background: #ccc; margin-right: 8px; cursor: pointer; }
+
+#detailsmain .productitem .itemright .list .dropdown { padding: 2px; border: 1px solid #ccc; }
+
+#detailsmain .productitem .itemright .list .crave { padding: 2px; width: 86px; height: 23px; margin-right: 10px; border: 1px solid #ccc; margin-bottom: 2px; }
+
+#detailsmain .productitem .itemright .list .consult { color: red; }
+
+#detailsmain .productitem .itemright .info { margin-top: 10px; margin-left: 40px; padding-top: 10px; width: 450px; border-top: 1px dashed #D2D2D2; }
+
+#detailsmain .productitem .itemright .info .total { float: left; width: 450px; line-height: 30px; color: red; }
+
+#detailsmain .productitem .itemright .info .button { width: 450px; height: 60px; overflow: hidden; }
+
+#detailsmain .productitem .itemright .info .button .addtocart, #detailsmain .productitem .itemright .info .button .addtofavor { float: left; margin-top: 12px; margin-right: 12px; background: url("../img/details/addtocart.png") no-repeat; width: 126px; height: 42px; line-height: 42px; cursor: pointer; }
+
+#detailsmain .productitem .itemright .info .button .addtofavor { background: url("../img/details/addtofavor.png") no-repeat; }
+
+#detailsmain .productcont { padding-top: 20px; }
+
+#detailsmain .productcont .contleft { float: left; width: 242px; }
+
+#detailsmain .productcont .contleft .lefthead { height: 35px; line-height: 35px; text-indent: 10px; font-weight: bold; border: 1px solid #D2D2D2; background: url("../img/details/listbg.gif"); color: #DB3962; }
+
+#detailsmain .productcont .contleft .security { height: 231px; border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2; border-bottom: 1px solid #D2D2D2; }
+
+#detailsmain .productcont .contleft .lefthots { margin-top: 20px; height: 35px; line-height: 35px; text-indent: 10px; font-weight: bold; border: 1px solid #D2D2D2; background: url("../img/details/listbg.gif"); }
+
+#detailsmain .productcont .contleft .hotslist { border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2; }
+
+#detailsmain .productcont .contleft .hotsimgs { padding: 5px 0; height: 210px; text-align: center; background: #fff; }
+
+#detailsmain .productcont .contleft .hotsimgs img { width: 200px; height: 200px; border: none; }
+
+#detailsmain .productcont .contleft .hotstext { padding: 0 5px; width: 240px; height: 38px; line-height: 30px; text-align: center; border-bottom: 1px solid #D2D2D2; background: #fff; }
+
+#detailsmain .productcont .contright { float: right; width: 910px; border: 1px solid #D2D2D2; background: #fff; }
+
+#detailsmain .productcont .contright .righthead { width: 910px; height: 35px; line-height: 35px; text-align: center; font-weight: bold; border-bottom: 1px solid #D2D2D2; background: url("../img/details/listbg.gif"); }
+
+#detailsmain .productcont .contright .righthead .headnormal, #detailsmain .productcont .contright .righthead .headselect { float: left; width: 101px; height: 35px; line-height: 35px; border-right: 1px solid #D2D2D2; cursor: pointer; }
+
+#detailsmain .productcont .contright .productlist { text-align: center; padding: 20px 45px 0 80px; }
+
+#detailsmain .productcont .contright .productfuwu { text-align: left; padding: 20px 98px; line-height: 24px; }
+
+#detailsmain .productcont .contright .productfuwu strong { border-bottom: 1px solid #ddd; margin-bottom: 12px; padding: 20px 0 12px 0; background: url("../img/details/logobg.gif") no-repeat 0 20px; text-indent: 28px; font-size: 14px; width: 712px; display: block; }
+
+#detailsmain .productcont .contright .productfuwu .centerimg { text-align: center; }
+
+#detailsmain .productcont .contright .productfuwu p { text-indent: 24px; }
+
+#detailsmain .productcont .contright .productfuwu table { margin-top: 20px; }
+
+#detailsmain .productcont .contright .productpack { width: 700px; height: 290px; background: url("../img/details/cpt8.jpg") no-repeat; margin-top: 20px; }
+
+#detailsmain .productcont .contright .productpack p { float: right; width: 310px; text-indent: 24px; padding: 25px 20px 0 0; }
+
+#detailsmain .productcont .contright .productsend { width: 700px; height: 280px; background: url("../img/details/cpt9.jpg") no-repeat; margin-top: 10px; }
+
+#detailsmain .productcont .contright .productsend p { float: left; width: 274px; margin: 40px 0 0 47px; text-indent: 24px; }
