@@ -7,7 +7,7 @@ require.config({
     paths:{
         'jquery':'../lib/jquery-3.2.1.min',
         
-        'gdszoom':'../lib/jquery.gdsZoom/jquery.gdsZoom',
+        'gdszoom':'../lib/jquery-gdsZoom/jquery.gdsZoom',
 
         'lhhCarousel':'../lib/jquery-lxCarousel/jquery.lxCarousel'
     },

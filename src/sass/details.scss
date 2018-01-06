@@ -3,15 +3,17 @@
     .productitem{border:1px solid #D2D2D2;background:#fff;
         .itemline{height:15px;border-top:2px solid #FFC0C1;}
         .itemleft{padding:15px 25px;width:500px;border-right:1px solid #D2D2D2;float:left;
-            .large{margin:0 10px;text-align:center;}
+            .large{margin:0 10px;text-align:center;
+                img{height:420px;width:420px;}
+            }
             .small{margin:10px 10px 0 10px;
                 i{float:left;margin-top:35px;cursor:pointer;
                     &:first-child{margin-right:5px;}
                 }
                 .smallbox{width:400px;overflow:hidden;float:left; 
                     ul{position:relative;top:0;left:0;
-                        li{float:left;margin-left:1px;margin-right:1px;width:98px;height:95px;
-                            img{border:1px solid #ccc;}
+                        .smallList{float:left;margin-left:1px;margin-right:1px;width:98px;height:95px;
+                            img{border:1px solid #ccc;width:90px;height:90px;}
                         }       
                     }
                 }

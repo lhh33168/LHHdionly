@@ -9,6 +9,26 @@
             .mainnone{height:446px;background:url('../img/cart/cartnone.jpg')no-repeat;
                 .nonetext{margin-left:600px;margin-top:100px;padding:5px 10px;width:310px;line-height:30px;border:1px solid #DEDEDE;background:#FFFAF9;}
             }
+            table{width:100%;border:none;border-collapse:collapse;font-size:12px;
+                tr.headrow{height:40px;line-height:40px;}
+                tr.product{background:#F7F7F7;}
+                td.img{width:130px;}
+                td{padding:5px;text-align:center;}
+                td.size{width:110px;}
+                td.word{width:150px;}
+                td.price{width:110px;}
+                td.action{width:110px;}
+            }
+            .mainstat{margin:10px 0;width:1140px;height:40px;background:#F7F7F7;font-size:12px;
+                .statleft{float:left;width:400px;height:40px;line-height:40px;
+                    #totalcount{margin:0 5px;font-weight:bold;color:#C11E1F;}
+                    a.gobuy{margin:0 20px;color:#DB3962;}
+                }
+                .statright{float:right;width:740px;height:40px;line-height:40px;text-align:right;
+                    #totalmoney{margin:0 5px;font-size:16px;font-weight:bold;color:#C11E1F;}
+                    .button{margin:0 15px;padding:4px 25px;color:#fff;cursor:pointer;}
+                }
+            }
         }
     }
 }

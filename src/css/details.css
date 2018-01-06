@@ -10,6 +10,8 @@
 
 #detailsmain .productitem .itemleft .large { margin: 0 10px; text-align: center; }
 
+#detailsmain .productitem .itemleft .large img { height: 420px; width: 420px; }
+
 #detailsmain .productitem .itemleft .small { margin: 10px 10px 0 10px; }
 
 #detailsmain .productitem .itemleft .small i { float: left; margin-top: 35px; cursor: pointer; }
@@ -20,9 +22,9 @@
 
 #detailsmain .productitem .itemleft .small .smallbox ul { position: relative; top: 0; left: 0; }
 
-#detailsmain .productitem .itemleft .small .smallbox ul li { float: left; margin-left: 1px; margin-right: 1px; width: 98px; height: 95px; }
+#detailsmain .productitem .itemleft .small .smallbox ul .smallList { float: left; margin-left: 1px; margin-right: 1px; width: 98px; height: 95px; }
 
-#detailsmain .productitem .itemleft .small .smallbox ul li img { border: 1px solid #ccc; }
+#detailsmain .productitem .itemleft .small .smallbox ul .smallList img { border: 1px solid #ccc; width: 90px; height: 90px; }
 
 #detailsmain .productitem .itemright { float: right; padding: 15px 5px; width: 630px; }
 

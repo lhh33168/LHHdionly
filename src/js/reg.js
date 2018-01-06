@@ -11,5 +11,6 @@ require(['config'],function(){
             $('#loginname').on('blur',function(){
                 $(this).attr('value','11位数字');
             })
+            
     });
 })

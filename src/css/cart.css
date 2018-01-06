@@ -14,6 +14,38 @@
 
 #cartmain .carbody .wrapmain .mainnone .nonetext { margin-left: 600px; margin-top: 100px; padding: 5px 10px; width: 310px; line-height: 30px; border: 1px solid #DEDEDE; background: #FFFAF9; }
 
+#cartmain .carbody .wrapmain table { width: 100%; border: none; border-collapse: collapse; font-size: 12px; }
+
+#cartmain .carbody .wrapmain table tr.headrow { height: 40px; line-height: 40px; }
+
+#cartmain .carbody .wrapmain table tr.product { background: #F7F7F7; }
+
+#cartmain .carbody .wrapmain table td.img { width: 130px; }
+
+#cartmain .carbody .wrapmain table td { padding: 5px; text-align: center; }
+
+#cartmain .carbody .wrapmain table td.size { width: 110px; }
+
+#cartmain .carbody .wrapmain table td.word { width: 150px; }
+
+#cartmain .carbody .wrapmain table td.price { width: 110px; }
+
+#cartmain .carbody .wrapmain table td.action { width: 110px; }
+
+#cartmain .carbody .wrapmain .mainstat { margin: 10px 0; width: 1140px; height: 40px; background: #F7F7F7; font-size: 12px; }
+
+#cartmain .carbody .wrapmain .mainstat .statleft { float: left; width: 400px; height: 40px; line-height: 40px; }
+
+#cartmain .carbody .wrapmain .mainstat .statleft #totalcount { margin: 0 5px; font-weight: bold; color: #C11E1F; }
+
+#cartmain .carbody .wrapmain .mainstat .statleft a.gobuy { margin: 0 20px; color: #DB3962; }
+
+#cartmain .carbody .wrapmain .mainstat .statright { float: right; width: 740px; height: 40px; line-height: 40px; text-align: right; }
+
+#cartmain .carbody .wrapmain .mainstat .statright #totalmoney { margin: 0 5px; font-size: 16px; font-weight: bold; color: #C11E1F; }
+
+#cartmain .carbody .wrapmain .mainstat .statright .button { margin: 0 15px; padding: 4px 25px; color: #fff; cursor: pointer; }
+
 #hottj { width: 100%; padding: 20px 0; }
 
 #hottj .wraphead { padding: 0 10px; height: 34px; border-top: 1px solid #DEDEDE; border-bottom: 1px solid #DEDEDE; background: url("../img/cart/hotbg.png"); }

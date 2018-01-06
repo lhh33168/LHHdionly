@@ -53,6 +53,10 @@
 
 .productlist .listright .listpager span { margin: 0 5px; padding: 0 8px; }
 
+.productlist .listright .listpager a { margin: 0 5px; padding: 5px 8px; font-size: 12px; border: solid 1px #D2D2D2; background: #eee; cursor: pointer; }
+
+.productlist .listright .listpager a.active { background: #fc0; color: #fff; }
+
 .productlist .listright .listheader { margin-top: 20px; width: 920px; height: 35px; line-height: 35px; border: 1px solid #CECECE; background: url("../img/ProductList/headbg.png"); }
 
 .productlist .listright .listheader .headeritem { display: inline-block; width: 70px; height: 35px; text-align: center; line-height: 35px; float: left; }
@@ -65,9 +69,9 @@
 
 .productlist .listright .listwraper .wraperitem .itemimg { margin: 0 auto; width: 200px; height: 210px; display: block; }
 
-.productlist .listright .listwraper .wraperitem .itemimg img { width: 200px; height: 200px; border: none; margin: 10px; }
+.productlist .listright .listwraper .wraperitem .itemimg img { width: 200px; height: 200px; border: none; margin: 10px; cursor: pointer; }
 
-.productlist .listright .listwraper .wraperitem .itemname { width: 306px; height: 40px; line-height: 30px; font-size: 14px; text-align: center; }
+.productlist .listright .listwraper .wraperitem .itemname { width: 306px; height: 40px; line-height: 30px; font-size: 14px; text-align: center; cursor: pointer; }
 
 .productlist .listright .listwraper .wraperitem .itemprice { width: 306px; height: 40px; background: #F8F8F8; font-size: 12px; }
 
