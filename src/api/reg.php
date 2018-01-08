@@ -3,6 +3,7 @@
 	
 	$username = isset($_GET['username']) ? $_GET['username'] : '';
 	$password = isset($_GET['password']) ? $_GET['password'] : '';
+	$zhuce = isset($_GET['zhuce']) ? $_GET['zhuce'] : '';
 	// $email = isset($_GET['email']) ? $_GET['email'] : '';
 	// $grade = isset($_GET['grade']) ? $_GET['grade'] : '';
 	// $gender = isset($_GET['gender']) ? $_GET['gender'] : '';
@@ -14,9 +15,7 @@
 	$result = $conn->query($sql);
 	if($result->num_rows>0){
 		echo "fail";
-	}else if($username===10){
-		echo "10"
-	}else{
+	}else if($zhuce==true){
 		// 密码md5加密
 		$password = md5($password);
 

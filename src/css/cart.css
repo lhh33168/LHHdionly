@@ -26,6 +26,12 @@
 
 #cartmain .carbody .wrapmain table td.size { width: 110px; }
 
+#cartmain .carbody .wrapmain table td.size span { border: 1px solid #000; width: 20px; display: inline-block; line-height: auto; }
+
+#cartmain .carbody .wrapmain table td.size span:nth-child(2) { border-right: none; border-left: none; }
+
+#cartmain .carbody .wrapmain table td.size span:nth-child(1), #cartmain .carbody .wrapmain table td.size span:nth-child(3) { cursor: pointer; }
+
 #cartmain .carbody .wrapmain table td.word { width: 150px; }
 
 #cartmain .carbody .wrapmain table td.price { width: 110px; }

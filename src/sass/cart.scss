@@ -14,7 +14,12 @@
                 tr.product{background:#F7F7F7;}
                 td.img{width:130px;}
                 td{padding:5px;text-align:center;}
-                td.size{width:110px;}
+                td.size{width:110px;
+                    span{border:1px solid #000;width:20px;display:inline-block;line-height:auto;
+                        &:nth-child(2){border-right:none;border-left:none;}
+                        &:nth-child(1),&:nth-child(3){cursor:pointer;}
+                    }
+                }
                 td.word{width:150px;}
                 td.price{width:110px;}
                 td.action{width:110px;}

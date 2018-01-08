@@ -44,19 +44,19 @@ s, i, em { font-style: normal; text-decoration: none; }
 
 .topbar .right a { margin: 0 10px; }
 
-.topbar .right a:nth-child(1) { padding-left: 22px; background: url("../img/icon.png") no-repeat 0 -22px; }
+.topbar .right a:nth-child(1) { padding-left: 21px; background: url("../img/icon.png") no-repeat 0 -22px; }
 
 .topbar .right a:nth-child(2) span { color: #DB3962; font-weight: bold; }
 
-.topbar .right a:nth-child(3) { padding-left: 22px; background: url("../img/icon.png") no-repeat 0 -40px; }
+.topbar .right a:nth-child(3) { padding-left: 21px; background: url("../img/icon.png") no-repeat 0 -40px; }
 
-.topbar .right a:nth-child(4) { padding-left: 22px; background: url("../img/icon.png") no-repeat 0 -40px; }
+.topbar .right a:nth-child(4) { padding-left: 21px; background: url("../img/icon.png") no-repeat 0 -40px; }
 
-.topbar .right a:nth-child(5) { padding-left: 22px; background: url("../img/icon.png") no-repeat 0 -67px; }
+.topbar .right a:nth-child(5) { padding-left: 21px; background: url("../img/icon.png") no-repeat 0 -67px; }
 
-.topbar .right a:nth-child(6) { padding-left: 22px; background: url("../img/icon.png") no-repeat 0 -98px; }
+.topbar .right a:nth-child(6) { padding-left: 21px; background: url("../img/icon.png") no-repeat 0 -98px; }
 
-.topbar .right a:nth-child(7) { padding-left: 22px; background: url("../img/icon.png") no-repeat 0 -132px; }
+.topbar .right a:nth-child(7) { padding-left: 21px; background: url("../img/icon.png") no-repeat 0 -132px; }
 
 /*---------------------------header------------------------------*/
 .header { height: 100px; }

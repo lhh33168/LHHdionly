@@ -15,6 +15,7 @@ require(['config'],function(){
             $('#pageFooter').load('../html/foot.html');
         /*------------------------detailsmain------------------------*/ 
             //详情页参数信息获取
+            var userName = window.sessionStorage.getItem('username');console.log(userName)
             var params = location.search;
             params = params.slice(1);
             params = params.split('=');
@@ -25,6 +26,7 @@ require(['config'],function(){
                     id:params
                 },
                 success:function(res){
+                    try{
                     res = JSON.parse(res);console.log(res.imgurl)
                     $('.large img').attr({'src':res.imgurl,'data-big':res.imgurl,'alt':res.name,'title':res.name});
                     var imgurls = res.imgurls.split(',');
@@ -53,6 +55,39 @@ require(['config'],function(){
                             $('.smallbox ul').animate({left:$left})
                         }
                     });
+                    //详情页右边参数获取
+                    $('.itemright>.list>.bold').text(res.name);
+                    $('#itemmarket').text(res.mprice);
+                    $('#itemprice').text(res.price);
+                    //购物车添加商品操作
+                    if(userName){
+                        userName = userName.slice(1);
+                        userName = userName.split('=');
+                        userName = userName[1];
+                    }
+                    $('.addtocart').on('click',function(){
+                        $.ajax({
+                            url:'../api/cart.php',
+                            data:{
+                                goodsid:params,
+                                username:userName,
+                                imgurl:res.imgurl,
+                                name:res.name,
+                                price:res.price,
+                                mprice:res.mprice,
+                                qty:1
+                            },
+                            success:function(data){
+                                if(data==='ok'){
+                                    location.href= 'cart.html';
+                                    console.log(data) 
+                                } else{
+                                    console.log(data) 
+                                }   
+                            }    
+                        })
+                    })
+                }catch(err){}
                 }
             })
             

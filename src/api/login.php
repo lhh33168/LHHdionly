@@ -8,7 +8,7 @@
 	$password = md5($password);
 
 	$sql = "select * from user where username='$username' and password='$password'";
-
+	//var_dump($sql);
 
 	// 获取查询结果
 	$result = $conn->query($sql);
